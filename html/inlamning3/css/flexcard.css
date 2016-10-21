@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.flex-card-wrap {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.flex-card {
+  background-color: seagreen;
+  opacity: 0.7;
+  border: 1px solid white;
+  max-width: 100%;
+  padding: 10px;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  color:white;
+}
+
+.flex-card-title {
+  font-size: 120%;
+  font-weight: 700;
+}
+
+.flex-card-meta {
+  display: flex;
+}
+
+.flex-card-category,
+.flex-card-author {
+  flex: 1;  
+}
+
+.flex-card-author {
+  text-align: right;
+}
+    
+.flex-card-bottom {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.flex-card-img {
+  margin: 20px 0;
+  align-self: center;
+  width: 100%;
+  height: auto;
+}
+
+    
+.flex-card-button {
+  background-color: gold;
+  color: seagreen;
+  text-align: center;
+  font-size: 120%;
+  font-weight: 500;
+  margin-top: auto;
+  padding: 0px;
+  border: none;
+}
+
+@media all and (min-width: 600px){
+ 
+.flex-card-wrap {
+flex-flow: row wrap;
+
+}
+ 
+.flex-card {
+width: 48%;
+}
+ 
+.flex-card:last-child {
+width: 98%;
+}
+ 
+}
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

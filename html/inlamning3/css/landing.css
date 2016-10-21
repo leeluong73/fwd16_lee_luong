@@ -1,0 +1,38 @@
+ body {
+    background: green;
+    background-image: url("../images/scotland.jpg");
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+ }
+
+ .landing {
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	flex-flow: column wrap;
+ 	height: 100vh;
+ }
+
+.smiley {
+    font-size: 60px;
+    color: white;
+    background: transparent;
+    border: none;
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+}
+
+a .landing h1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+a .landing h3 {
+    color: white;
+    font-family: sans-serif;
+}

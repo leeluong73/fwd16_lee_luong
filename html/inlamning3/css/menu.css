@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: green;
+    background-image: url("../images/scotland.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.wrapper {
+  max-width:100px;
+  margin:0 auto;
+  padding:50;
+  display:inline;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 0.8em;
+  display: inline-block;
+  width: 100%;
+  transition: all 0,5s;
+  background: rgba (0 0 0 0,2);
+}
+
+a:hover {
+  color:red;
+  background-color: ghostwhite;
+}
+
+.flex-nav ul {
+display: flex;
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+flex-wrap: wrap;
+}
+
+.flex-nav li{
+  flex-basis: 100%;
+}
+
+.flex-nav .social{
+  flex: 1 1 25%; 
+}
+
+@media all and (min-width:500px) {
+.flex-nav li { 
+flex: 1 1 50%;
+}
+}
+
+@media all and (min-width: 1000px) {
+.flex-nav li {
+flex: 3;
+}
+    
+.flex-nav .social {
+flex: 1;
+}
+}
+
+
+
+
+
+
+
